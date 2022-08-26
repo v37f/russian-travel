@@ -10,14 +10,15 @@
   align-items: center;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .lead__container {
     width: calc(100% - (48px * 2));
-    min-width: 768px;
+    min-width: calc(768px - (100vw - 100%)); /* Вычитаем из макс. разрешения следующего брекпойнта(768px) ширину вертикального скролла(100vw - 100%),
+                                                для того чтобы при сужении страницы не появлялся горизонтальный скролл  */
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .lead__container {
     width: 100%;
     min-width: 320px;

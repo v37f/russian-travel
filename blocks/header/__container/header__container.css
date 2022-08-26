@@ -1,21 +1,21 @@
 .header__container {
   margin: 0 auto;
-  width: calc(100% - 96px);
+  width: calc(100% - (48px * 2)); /* ширина родителя минус два отступа по 48px */
   max-width: 1184px;
   display: flex;
   justify-content: space-between;
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   .header__container {
-    width: calc(100% - 48px);
+    width: calc(100% - (24px * 2));
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .header__container {
-    width: calc(100% - 32px);
+    width: calc(100% - (16px * 2));
   }
 }
 

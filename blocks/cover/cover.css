@@ -1,7 +1,8 @@
 .cover {
   padding-top: 92px;
   width: calc(100% - (48px * 2));
-  min-width: 1024px;
+  min-width: calc(1024px - (100vw - 100%));  /* Вычитаем из макс. разрешения следующего брекпойнта(1024px) ширину вертикального скролла(100vw - 100%),
+                                                для того чтобы при сужении страницы не появлялся горизонтальный скролл  */
   max-width: 1184px;
 
   margin: 0 auto;
@@ -14,7 +15,7 @@
   }
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 425px){
   .cover {
     padding-top: 66px;
   }
