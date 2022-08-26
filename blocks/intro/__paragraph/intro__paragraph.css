@@ -10,6 +10,6 @@
 
 @media screen and (max-width: 1023px) {
   .intro__paragraph {
-    max-width: 720px
+    max-width: 720px;
   }
 }
