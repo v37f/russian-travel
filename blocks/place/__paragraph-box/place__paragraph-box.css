@@ -1,0 +1,6 @@
+@media screen and (max-width: 425px){
+  .place__paragraph-box {
+    max-width: calc(100% - (16px * 2));
+    justify-self: center;
+  }
+}

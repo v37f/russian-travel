@@ -10,6 +10,8 @@
   color: #fff;
   font-family: 'Inter';
   font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 
   min-width: 320px;
 }
