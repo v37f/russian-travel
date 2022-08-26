@@ -12,4 +12,4 @@
 Файловая структура по БЭМ(nested).
 
 ## Cсылка
-[Проект на gh-pages]()
+[Проект на gh-pages](https://v37f.github.io/russian-travel/)
