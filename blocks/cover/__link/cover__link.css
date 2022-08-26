@@ -1,0 +1,10 @@
+.cover__link {
+  display: grid;
+  grid-template-columns: 1fr;
+
+  text-decoration: none;
+}
+
+.cover__link:hover .cover__image {
+  opacity: .3;
+}

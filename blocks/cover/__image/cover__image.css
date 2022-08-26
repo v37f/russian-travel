@@ -1,0 +1,9 @@
+.cover__image {
+  width: 100%;
+
+  grid-column: 1;
+  grid-row: 1;
+
+  opacity: .6;
+  transition: opacity .4s ease;
+}

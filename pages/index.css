@@ -47,3 +47,18 @@
 @import url('../blocks/place/__image/place__image.css');
 @import url('../blocks/place/__paragraph-box/place__paragraph-box.css');
 @import url('../blocks/place/__paragraph/place__paragraph.css');
+
+/* cover */
+@import url('../blocks/cover/cover.css');
+@import url('../blocks/cover/__link/cover__link.css');
+@import url('../blocks/cover/__image/cover__image.css');
+@import url('../blocks/cover/__text-box/cover__text-box.css');
+@import url('../blocks/cover/__title/cover__title.css');
+@import url('../blocks/cover/__subtitle/cover__subtitle.css');
+
+/* footer */
+@import url('../blocks/footer/footer.css');
+@import url('../blocks/footer/__links/footer__links.css');
+@import url('../blocks/footer/__link/footer__link.css');
+@import url('../blocks/footer/__copyright/footer__copyright.css');
+
