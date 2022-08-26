@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  src: url('../../vendor/fonts/Inter-Regular.woff2') format('woff2'),
+       url('../../vendor/fonts/Inter-Regular.woff') format('woff');
+}
+
+.page {
+  background-color: #2a2c2f;
+  color: #fff;
+  font-family: 'Inter';
+  font-style: normal;
+
+  min-width: 320px;
+}

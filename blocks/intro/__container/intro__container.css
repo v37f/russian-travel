@@ -1,0 +1,21 @@
+.intro__container {
+  width: calc(100% - (148px * 2));
+  min-width: calc(1024px - (48px * 2));
+  max-width: 984px;
+
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro__container {
+    width: calc(100% - (48px * 2));
+    min-width: calc(768px - (24px * 2));
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro__container {
+    width: calc(100% - (24px * 2));
+    min-width: calc(320px - (16px * 2));
+  }
+}
