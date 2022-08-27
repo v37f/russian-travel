@@ -1,12 +1,11 @@
 .footer {
   padding-top: 92px;
+  padding-bottom: 24px;
   width: calc(100% - (48px * 2));
   min-width: 720px;
   max-width: 1184px;
 
   margin: 0 auto;
-
-  min-height: calc(134px - 92px); /* полная высота блока минус верхний паддинг */
 
   display: flex;
   justify-content: space-between;
@@ -23,8 +22,6 @@
   .footer {
     padding-top: 64px;
     min-width: 288px;
-    min-height: calc(398px - 64px);
-
 
     flex-direction: column;
     justify-content: flex-start;

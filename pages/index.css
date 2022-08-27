@@ -1,5 +1,7 @@
 @import url('../vendor/normalize.css');
 
+@import url('../vendor/fonts.css');
+
 @import url('../blocks/page/page.css');
 
 /* header */
@@ -7,7 +9,7 @@
 @import url('../blocks/header/__container/header__container.css');
 @import url('../blocks/header/__lang-links/header__lang-links.css');
 @import url('../blocks/header/__lang-link/header__lang-link.css');
-@import url('../blocks/header/__lang-link/_type/header__lang-link_type_en.css');
+@import url('../blocks/header/__lang-link/_active/header__lang-link_active.css');
 @import url('../blocks/header/__logo/header__logo.css');
 
 /* lead */
@@ -29,10 +31,7 @@
 
 /* photo */
 @import url('../blocks/photo/photo.css');
-
-/* photo-grid */
-@import url('../blocks/photo-grid/photo-grid.css');
-@import url('../blocks/photo-grid/__item/photo-grid__item.css');
+@import url('../blocks/photo/__item/photo__item.css');
 
 /* places */
 @import url('../blocks/places/places.css');
