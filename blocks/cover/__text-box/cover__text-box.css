@@ -1,18 +1,41 @@
 .cover__text-box {
-  grid-column: 1;
-  grid-row: 1;
-  justify-self: center;
-  align-self: center;
-  z-index: 2;
-
   display: flex;
   flex-direction: column;
-  align-items: center;
   gap: 32px;
+  align-items: center;
+
+  padding: 245px 0;
+
+  background-color: rgba(42, 44, 47, .3);
+  /* Поскольку opacity меняет прозрачность так же и дочерних элементов блока(в данном случае текст)
+  при его использовании придется добавлять отдельный блок с фоном и поверх него накладывать блок с текстом,
+  rgba() же позволяет управлять прозрачностью фона блока с текстом, при этом не затрагивая прозрачность текста,
+  это избавляет нас от необхидомости создавать блок фона и позиционировать поверх него текст, что делает код
+  легче */
+
+  transition: background-color .4s ease;
 }
 
 @media screen and (max-width: 767px) {
   .cover__text-box {
     gap: 16px;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .cover__text-box {
+    padding: 195px 0;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .cover__text-box {
+    padding: 115px 0;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .cover__text-box {
+    padding: 33px 0;
   }
 }

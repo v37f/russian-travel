@@ -1,10 +1,14 @@
 .cover__link {
-  display: grid;
-  grid-template-columns: 1fr;
-
+  display: block;
   text-decoration: none;
+
+  background-image: url('../../../images/cover-trains.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
-.cover__link:hover .cover__image {
-  opacity: .3;
+.cover__link:hover .cover__text-box {
+  background-color: rgba(42, 44, 47, .8);
 }
+
+
